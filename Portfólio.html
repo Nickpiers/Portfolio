@@ -3,38 +3,93 @@
 
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="PortfolioCSS.css">
-    <link rel="stylesheet" href="imagesCss.css">
+    <link rel="stylesheet" href="cssFiles/PortfolioCSS.css">
+    <link rel="stylesheet" href="cssFiles/imagesCss.css">
 
 </head>
 
 <body>
-    <div class="primeiro">
+    
+    
+    <!--First Sector: Personal Presentation-->
+    <div class="title">
         <h1>Nicolas Pierina</h1>
     </div>
 
-    <div class="flex-container">
+    <div class="First-flex-container">
         <div style="flex-grow: 1"><img src="imagens/kingdedede.png" class="imagemKing"></div>
-        <div style="flex-grow: 1"><p>Quem eu sou</p></div>
+        <div style="flex-grow: 1"><p class="textOne">Meu nome é Nicolas Pierina <br>
+                                    Sou um estudande de programação no curso de Sistemas de Informação na UTFPR<br>
+                                    Tive meu primeiro contato com a programação durante o ensino médio, e me apaixonei<br>
+                                    por todas as possibilidades de feitos que podem ser realizadas através dela.    
+                                  </p>
+        </div>
     </div>
 
-    <div class="flex-container">
+    <!--Second Sector: Achievments-->
+    <div class="Second-flex-container">
+        <div style="flex-grow: 1"><p class="textTwo">Achievments</p></div>
         <div style="flex-grow: 1"><img src="imagens/Achievment.png" class="imagemAchiev"></div>
-        <div style="flex-grow: 1"><p>Achievments</p></div>
     </div>
 
-    <div class="flex-container">
-        <div style="flex-grow: 1"><img src="imagens/Nivel.png" class="imagemNivel"></div>
-        <div style="flex-grow: 1"><p>Linguagens de programação e o nível</p></div>
+    <!--Third Sector: Programming Languages Level-->
+    <div class="Third-flex-container">
+        <table style="width: 1200px; align-self: center; margin-left: auto; margin-right: auto;">
+            <tr>
+                <th colspan="2" class="tableWords"></th>
+                <th colspan="3" class="tableWords">Iniciante</th>
+                <th colspan="3" class="tableWords">Intermediário</th>
+                <th colspan="3" class="tableWords">Avançado</th>
+                <th colspan="3" class="tableWords">Profissional</th>
+            </tr>
+            <tr>
+                <th colspan="2" class="tableWords">HTML</th>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+            </tr>
+            <tr>
+                <th colspan="2" class="tableWords">Python</th>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+            </tr>
+            <tr>
+                <th colspan="2" class="tableWords">C</th>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+            </tr>
+            <tr>
+                <th colspan="2" class="tableWords">Java</th>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+            </tr>
+            <tr>
+                <th colspan="2" class="tableWords">R</th>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+            </tr>
+
+        </table>
     </div>
 
-    <div class="flex-container">
+    <!--Fourth Sector: Projects-->
+    <div class="Fourth-flex-container">
+        <div style="flex-grow: 1"><p class="textFour">Projetos atuais e futuros</p></div>
         <div style="flex-grow: 1"><img src="imagens/Projetos.jpg" class="imagemProj"></div>
-        <div style="flex-grow: 1"><p>Projetos atuais e futuros</p></div>
     </div>
 
-    <div class="flex-container">
-        <p>E-mail para contato: nicolaspierina@gmail.com<br>
+    <!--Final Considerations-->
+    <div>
+        <p class="finalConsi">E-mail para contato: nicolaspierina@gmail.com<br>
                   Feito por Nicolas Pierina</p>     
     </div>
     

@@ -1,0 +1,98 @@
+/*Formatting all the sections from top to bottom*/
+
+/*Title*/
+h1 {
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.title {
+    background-color: #3061DB;
+    padding: 30px;
+}
+
+/*Content Sector*/
+
+/*First Sector*/
+.First-flex-container {
+    background-color: #2850B5;
+    display: flex;
+    align-items: stretch;
+    padding: 30px;
+}
+
+.textOne {
+    font-style: italic;
+    text-align: center;
+    width: max-content;
+    font-size: 30px;
+    margin-top: 7%;
+}
+
+/*Second Sector*/
+.Second-flex-container {
+    background-color: #1A3475;
+    display: flex;
+    align-items: stretch;
+    padding: 30px;
+}
+
+.textTwo {
+    font-style: italic;
+    text-align: center;
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 18%;
+    margin-left: 45%;
+}
+
+/*Third Sector*/
+.Third-flex-container {
+    background-color: #0C1836;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.tableWords {
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+    color: #46F52F;
+    border: 1px solid #46F52F; 
+}
+
+
+.textThree {
+    font-style: italic;
+    text-align: center;
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 13%;
+}
+
+/*Fourth Sector*/
+.Fourth-flex-container {
+    background-color: #356BF5;
+    display: flex;
+    align-items: stretch;
+    padding: 30px;
+}
+
+.textFour {
+    font-style: italic;
+    text-align: center;
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+/*Final Considerations*/
+.finalConsi {
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+}
