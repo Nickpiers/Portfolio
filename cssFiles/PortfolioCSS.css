@@ -1,5 +1,14 @@
 /*Formatting all the sections from top to bottom*/
 
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
 /*Title*/
 h1 {
     text-align: center;
@@ -60,16 +69,6 @@ h1 {
     text-align: center;
     font-size: 40px;
     color: #46F52F;
-    border: 1px solid #46F52F; 
-}
-
-
-.textThree {
-    font-style: italic;
-    text-align: center;
-    width: fit-content;
-    font-size: 50px;
-    margin-top: 13%;
 }
 
 /*Fourth Sector*/

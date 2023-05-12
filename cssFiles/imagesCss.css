@@ -1,27 +1,54 @@
-img {
-  
+/*First Sector*/
+.imagemKing {
+    
     padding: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 1%;
+
+}
+
+/*Second Sector*/
+.imagemAchiev {
+
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 25%;
+
+}
+
+/*Third Sector*/
+.imagemGreen {
+
+    width: 75px;
+    height: 75px;
+
+}
+
+.imagemBlank {
+
+    width: 75px;
+    height: 75px;
+
+}
+
+
+/*Fourth Sector*/
+.imagemHanoi {
+
     width: 300px;
     height: 300px;
 
 }
 
-.imagemAchiev {
+.imagemAssembly {
 
-    margin-left: 25%;
-
-}
-
-.imagemProj {
-
-    margin-left: 10%;
+    width: 300px;
+    height: 300px;
 
 }
 
-.imagemKing {
 
-    margin-left: 1%;
-
-}
 
 
