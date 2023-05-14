@@ -44,7 +44,7 @@ h1 {
     background-color: #1A3475;
     display: flex;
     align-items: stretch;
-    padding: 30px;
+    padding: 100px;
 }
 
 .textTwo {
@@ -52,7 +52,6 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 50px;
-    margin-top: 18%;
     margin-left: 45%;
 }
 
@@ -72,26 +71,66 @@ h1 {
 }
 
 /*Fourth Sector*/
-.Fourth-flex-container {
+.Fourth-page {
+
     background-color: #356BF5;
-    display: flex;
-    align-items: stretch;
-    padding: 30px;
+    padding: 100px;
+
 }
 
-.textFour {
-    font-style: italic;
-    text-align: center;
-    width: fit-content;
-    font-size: 50px;
-    margin-top: 15%;
-    margin-left: 20%;
+.Fourth-flex-container {
+    position: relative;
+    padding: 15px;
+    max-width: 650px;
+    margin: 0 auto;
 }
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.item {
+    
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+
+}
+
+.current-item {
+    opacity: 1;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 
 /*Final Considerations*/
+.finalDiv {
+
+    background-color: #2850B5;
+    padding: 30px;
+
+}
+
+
 .finalConsi {
     font-style: italic;
     text-align: center;
-    font-size: 50px;
-    margin-top: 3%;
+    font-size: 25px;
+    margin: 10px;
 }

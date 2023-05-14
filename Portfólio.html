@@ -5,13 +5,11 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="cssFiles/PortfolioCSS.css">
     <link rel="stylesheet" href="cssFiles/imagesCss.css">
-    <link rel="stylesheet" href="script/scriptCarroussel.js">
 
 </head>
 
 <body>
-    
-    
+
     <!--First Sector: Personal Presentation-->
     <div class="title">
         <h1>Nicolas Pierina</h1>
@@ -30,7 +28,6 @@
     <!--Second Sector: Achievments-->
     <div class="Second-flex-container">
         <div style="flex-grow: 1"><p class="textTwo">Achievments</p></div>
-        <div style="flex-grow: 1"><img src="imagens/Achievment.png" class="imagemAchiev"></div>
     </div>
 
     <!--Third Sector: Programming Languages Level-->
@@ -45,66 +42,69 @@
             </tr>
             <tr>
                 <th colspan="2" class="tableWords">HTML</th>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
             </tr>
             <tr>
                 <th colspan="2" class="tableWords">Python</th>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
             </tr>
             <tr>
                 <th colspan="2" class="tableWords">C</th>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
             </tr>
             <tr>
                 <th colspan="2" class="tableWords">Java</th>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
             </tr>
             <tr>
                 <th colspan="2" class="tableWords">R</th>
-                <td colspan="3" class="tableWords"><img src="Imagens/GreenBlock.png" class="imagemGreen"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
-                <td colspan="3" class="tableWords"><img src="Imagens/BlankBlock.png" class="imagemBlank"></td>
+                <td colspan="3" class="tableWords">X</td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
+                <td colspan="3" class="tableWords"></td>
             </tr>
 
         </table>
     </div>
 
     <!--Fourth Sector: Projects-->
-    <div class="Fourth-flex-container">
-        <div style="flex-grow: 1"><a href="https://github.com/Nickpiers/HanoiTower.git"><img src="imagens/hanoiPicture.png" class="imagemHanoi"></a></div>
-        <div style="flex-grow: 1"><a href="https://github.com/Nickpiers/FibonacciAssembly.git"><img src="imagens/assemblyPicture.png" class="imagemAssembly"></a></div>
-        <div style="flex-grow: 1"><img src="imagens/emBreve.png" class="imagemBreve"></div>
-        <div style="flex-grow: 1"><img src="imagens/emBreve.png" class="imagemBreve"></div>
+    <div class="Fourth-page">
+        <div class="Fourth-flex-container">
+            <button class="arrow-left control" aria-label="Previous image">◀</button>
+            <button class="arrow-right control" aria-label="Next Image">▶</button>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <a href="https://github.com/Nickpiers/HanoiTower.git"><img src="imagens/hanoiPicture.png" alt="hanoiImage" class="item current-item"></a>
+                    <a href="https://github.com/Nickpiers/FibonacciAssembly.git"><img src="imagens/assemblyPicture.png" alt="assemblyImage" class="item current-item"></a>
+                    <img src="imagens/emBreve.png" alt="Breve Image1" class="item current-item">
+                    <img src="imagens/emBreve.png" alt="Breve Image2" class="item current-item">
+                </div>
+            </div>
+        </div>
     </div>
-
+    
     <!--Final Considerations-->
-    <div>
-        <p class="finalConsi">E-mail para contato: nicolaspierina@gmail.com<br>
-                  Feito por Nicolas Pierina</p>     
+    <div class="finalDiv">
+        <div>
+            <p class="finalConsi">E-mail para contato: nicolaspierina@gmail.com<br>
+                    Feito por Nicolas Pierina</p>     
+        </div>
     </div>
     
 
 
+    <script src="script/scriptCarroussel.js"></script>
 
 </body>
-
-
-
-
-
-
-
-
